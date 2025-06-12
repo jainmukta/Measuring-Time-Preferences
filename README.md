@@ -1,4 +1,6 @@
-family_size.do file - a sample of data processing in stata 
-non-durable masterswave.do file - a sample of how results are obtained in stata 
+Samples of data pre-processing in stata 
+
+family_size.do file
+Member income pre processing.do
 
 (full codes available on request)
