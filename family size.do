@@ -276,6 +276,7 @@ gen age = age_yrs
 replace age = avg_age if missing(age)
 
 //Calculate adult equivalency weights
+//Base Paper - Claro, R. M., R. B. Levy, D. H. Bandoni, and L. Mondini (2010). Per capita versus adult-equivalent estimates of calorie availability in household budget surveys. Cadernos de saude publica 26, 2188–2195.
 generate w = .
 
 replace w = 0.29 if inrange(age_yrs,0,1)
