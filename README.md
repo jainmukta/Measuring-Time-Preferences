@@ -4,4 +4,4 @@ Samples of data pre-processing in stata
 
 - Member income pre processing.do
 
-(full codes available on request)
+Full codes available on request
